@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="970b9e8b-c2ba-471b-8e9d-22bd8fe7cdde" name="iceberg" url="http://iceberg.shef.ac.uk">
-        <fileTransfer host="iceberg.shef.ac.uk" port="22" rootFolder="/home/cop15rj" accessType="SFTP" password="dfd8dfc3dfd9dfc2dfcbdfdcdfd3dfcbdfc2dfc5dfc5dfcbdfc3dfd9dfdcdf93df99" username="cop15rj">
+        <fileTransfer host="iceberg.shef.ac.uk" port="22" accessType="SFTP" password="dfd8dfc3dfd9dfc2dfcbdfdcdfd3dfcbdfc2dfc5dfc5dfcbdfc3dfd9dfdcdf93df99" username="cop15rj">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
