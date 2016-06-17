@@ -12,5 +12,5 @@ module load apps/java/1.8u71
 
 cd $BASE_PATH/stanford-parser-full-2015-12-09
 
-java -Xmx7g -cp "$PARSER_BASE/*:" $PARSER_CLASS -textFile $INPUT_FILE -model $MODEL_FILE -tagger.model $TAGGER_MODEL_FILE -outFile $OUTPUT_FILE
+java -Xmx2g -cp "$PARSER_BASE/*;." $PARSER_CLASS -textFile $INPUT_FILE -model $MODEL_FILE -tagger.model $TAGGER_MODEL_FILE -outFile $OUTPUT_FILE
 
