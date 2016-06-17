@@ -4,7 +4,7 @@ import time
 
 startTime = time.time()
 
-a = np.random.rand(10000,10000)
+a = np.random.rand(1000,1000)
 
 aInv = np.linalg.inv(a)
 
