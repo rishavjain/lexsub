@@ -1,0 +1,53 @@
+Loading depparse model file: /home/cop15rj/lexsub/stanford-parser-full-2015-12-09/edu/stanford/nlp/models/parser/nndep/PTB_CoNLL_params.txt.gz ... 
+###################
+#Transitions: 35
+#Labels: 17
+ROOTLABEL: ROOT
+PreComputed 100000, Elapsed Time: 1.43 (s)
+Initializing dependency parser done [3.0 sec].
+Reading POS tagger model from /home/cop15rj/lexsub/stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger ... done [1.5 sec].
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at edu.stanford.nlp.tagger.maxent.TestSentence.getPossibleValues(TestSentence.java:683)
+	at edu.stanford.nlp.sequences.ExactBestSequenceFinder.bestSequence(ExactBestSequenceFinder.java:51)
+	at edu.stanford.nlp.sequences.ExactBestSequenceFinder.bestSequence(ExactBestSequenceFinder.java:33)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.runTagInference(TestSentence.java:322)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.testTagInference(TestSentence.java:309)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.tagSentence(TestSentence.java:132)
+	at edu.stanford.nlp.tagger.maxent.MaxentTagger.tagSentence(MaxentTagger.java:979)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.parseTextFile(DependencyParser.java:1113)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1281)
+Loading depparse model file: /home/cop15rj/lexsub/stanford-parser-full-2015-12-09/edu/stanford/nlp/models/parser/nndep/PTB_CoNLL_params.txt.gz ... 
+###################
+#Transitions: 35
+#Labels: 17
+ROOTLABEL: ROOT
+PreComputed 100000, Elapsed Time: 1.453 (s)
+Initializing dependency parser done [3.1 sec].
+Test File: /data/cop15rj/corpus/sample1000
+OOV Words: 0 / 0 = NaN%
+UAS = NaN
+LAS = NaN
+DependencyParser parsed 0 words in 100303 sentences in 2.1s at 0.0 w/s, 48596.4 sent/s.
+Loading depparse model file: /home/cop15rj/lexsub/stanford-parser-full-2015-12-09/edu/stanford/nlp/models/parser/nndep/PTB_CoNLL_params.txt.gz ... 
+###################
+#Transitions: 35
+#Labels: 17
+ROOTLABEL: ROOT
+PreComputed 100000, Elapsed Time: 1.512 (s)
+Initializing dependency parser done [3.1 sec].
+Reading POS tagger model from /home/cop15rj/lexsub/stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger ... done [1.5 sec].
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at edu.stanford.nlp.tagger.maxent.TestSentence.getApproximateHistories(TestSentence.java:487)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.getHistories(TestSentence.java:443)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.getHistories(TestSentence.java:436)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.getApproximateScores(TestSentence.java:398)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.getScores(TestSentence.java:374)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.scoresOf(TestSentence.java:717)
+	at edu.stanford.nlp.sequences.ExactBestSequenceFinder.bestSequence(ExactBestSequenceFinder.java:105)
+	at edu.stanford.nlp.sequences.ExactBestSequenceFinder.bestSequence(ExactBestSequenceFinder.java:33)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.runTagInference(TestSentence.java:322)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.testTagInference(TestSentence.java:309)
+	at edu.stanford.nlp.tagger.maxent.TestSentence.tagSentence(TestSentence.java:132)
+	at edu.stanford.nlp.tagger.maxent.MaxentTagger.tagSentence(MaxentTagger.java:979)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.parseTextFile(DependencyParser.java:1113)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1281)

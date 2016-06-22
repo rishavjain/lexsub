@@ -11,6 +11,27 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="iceberg-data">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="iceberg-fastdata">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="iceberg-home">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
     <option name="myUploadOnCheckinName" value="iceberg" />
     <option name="myAutoUpload" value="ALWAYS" />

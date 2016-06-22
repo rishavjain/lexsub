@@ -10,6 +10,30 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="2086ba2f-bba2-4b9c-84c3-695119e61fa4" name="iceberg-data" url="http://iceberg.shef.ac.uk">
+        <fileTransfer host="iceberg.shef.ac.uk" port="22" rootFolder="/data/cop15rj" accessType="SFTP" password="dfd8dfc3dfd9dfc2dfcbdfdcdfd3dfcbdfc2dfc5dfc5dfcbdfc3dfd9dfdcdf93df99" username="cop15rj">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7c5a8e87-1482-4a5c-9248-3ce062ee1964" name="iceberg-fastdata" url="http://iceberg.shef.ac.uk">
+        <fileTransfer host="iceberg.shef.ac.uk" port="22" rootFolder="/fastdata/cop15rj" accessType="SFTP" password="dfd8dfc3dfd9dfc2dfcbdfdcdfd3dfcbdfc2dfc5dfc5dfcbdfc3dfd9dfdcdf93df99" username="cop15rj">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9413de46-4930-40ea-af11-88e887555a8f" name="iceberg-home" url="http://iceberg.shef.ac.uk">
+        <fileTransfer host="iceberg.shef.ac.uk" port="22" rootFolder="/home/cop15rj" accessType="SFTP" password="dfd8dfc3dfd9dfc2dfcbdfdcdfd3dfcbdfc2dfc5dfc5dfcbdfc3dfd9dfdcdf93df99" username="cop15rj">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
