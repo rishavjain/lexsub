@@ -34,6 +34,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="42dccdef-9f56-444e-a3b4-6c97ff177d7d" name="iceberg-baseline" url="http://iceberg.shef.ac.uk">
+        <fileTransfer host="iceberg.shef.ac.uk" port="22" rootFolder="/home/cop15rj/lexsub/baseline" accessType="SFTP" password="dfd8dfc3dfd9dfc2dfcbdfdcdfd3dfcbdfc2dfc5dfc5dfcbdfc3dfd9dfdcdf93df99" username="cop15rj">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

@@ -7,6 +7,7 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/baseline/code" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/baseline/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/baseline/out" />
       <excludeFolder url="file://$MODULE_DIR$/corpus/enwik9" />

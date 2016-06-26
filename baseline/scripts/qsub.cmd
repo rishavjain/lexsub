@@ -1,3 +1,6 @@
+:: replicating qsub command on windows
+::
+
 @ECHO OFF
 
 ::ECHO %*

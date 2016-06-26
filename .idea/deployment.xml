@@ -11,6 +11,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="iceberg-baseline">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="iceberg-data">
         <serverdata>
           <mappings>
